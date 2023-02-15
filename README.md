@@ -40,7 +40,7 @@ $ yarn start
 # The server will initialize in the <http://localhost:3000>
 ```
 
-Made with :heart: by <a href="https://github.com/davi1985" target="_blank">Davi Silva</a>
+Made with :heart: by <a href="https://github.com/davi1985" target="_blank">Davi Silva & Kelvin</a>
 
 &#xa0;
 

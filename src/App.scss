@@ -61,6 +61,11 @@ main {
     padding: 2rem;
   }
 
+  a:-webkit-any-link  {
+    text-decoration: none !important;
+    color: var(--white);
+  }
+
   button {
     font-size: 1rem;
     max-width: 160px;
