@@ -1,5 +1,5 @@
 import { Counter } from './components/Counter';
-import rocketSvg from './assets/img/rocket.svg';
+import Photo from './assets/img/photo.jpeg';
 import { ToastContainer, toast } from 'react-toastify';
 
 import 'react-toastify/dist/ReactToastify.css';
@@ -16,13 +16,13 @@ export const App = () => {
   return (
     <main>
       <div className="container">
-        <h1>Ready to launch in</h1>
+        <h1>Han pasado ...</h1>
 
         <Counter />
 
-        <p>Inscreva-se para saber mais sobre o lançamento</p>
+        <p>Desde el dia que te vi por primera vez</p>
 
-        <button onClick={notify}>Inscreva-se</button>
+        <button onClick={notify}>clic me</button>
 
         <ToastContainer
           theme="dark"
@@ -34,7 +34,7 @@ export const App = () => {
         />
       </div>
 
-      <img src={rocketSvg} alt="" width={500} />
+      <img src={Photo} alt="couple-photo" className='photo'/>
     </main>
   );
 };

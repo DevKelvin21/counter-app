@@ -1,7 +1,6 @@
 main {
   display: flex;
   padding: 2rem;
-  height: 100vh;
   justify-content: center;
   align-items: center;
   max-width: 1200px;
@@ -9,6 +8,8 @@ main {
 
   img {
     margin-left: 2rem;
+    height: 500px;
+    border-radius: 3%;
   }
 
   @media (max-width: 1170px) {
@@ -16,12 +17,13 @@ main {
 
     img {
       margin: 2rem 0;
-      width: 400px;
+      width: 300px;
     }
   }
 
   @media (max-width: 500px) {
     flex-direction: column;
+    padding: 0;
 
     img {
       margin: 2rem 0;

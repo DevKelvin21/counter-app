@@ -6,11 +6,9 @@ export type TimeLeft = {
 };
 
 export const calculateTimeLeft = () => {
-  let year = new Date().getFullYear();
-  let month = new Date().getMonth() + 1;
-  let day = new Date().getDate() + 2;
 
-  const difference = +new Date(`${year}-${month}-${day}`) - +new Date();
+
+  const difference = +new Date().getTime() - new Date('February 11, 2021 10:30:00').getTime();
 
   let timeLeft: TimeLeft = {} as TimeLeft;
 
